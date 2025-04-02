@@ -14,8 +14,8 @@ public class HomePage {
         driver.get("https://www.saucedemo.com");
     }
 
-    public void searchProduct(String productName) {
-        driver.findElement(By.id("search-input")).sendKeys(productName);
-        driver.findElement(By.id("search-button")).click();
-    }
+//    public void searchProduct(String productName) {
+//        driver.findElement(By.id("search-input")).sendKeys(productName);
+//        driver.findElement(By.id("search-button")).click();
+//    }
 }
